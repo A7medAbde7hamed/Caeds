@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Packages</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="packages.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">Readit</div>
+        <div class="menu-icon" id="menu-icon">☰</div>
+        <nav class="nav" id="nav">
+            <a href="index.html">Home</a>
+            <a href="Product.html">Product</a>
+            <a href="Services.html">Services</a>
+            <a href="packages.html">Packages</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About Us</a>
+        </nav>
+    </header>
+
+
+    <!-- Book List Section -->
+    <section class="book-section">
+
+        <h1>Packages</h1>
+        <!-- Book Cards -->
+        <div class="card-container">
+
+            <div class="book-card">
+                <h1>Basic</h1>
+                <img src="photo\Basic.png" alt="Book A" loading="lazy">
+                <p>Book of the month</p>
+                <p>Acsess to one review forum and discution group</p>
+                <p>Bookmark and drinking mug</p>
+                <p>Refreshments x1</p>
+                <p>box of coffe or tea</p>
+                <button>Subscribe</button>
+            </div>
+
+            <div class="book-card">
+                <h1>Intermidiate</h1>
+                <img src="photo\Intermidiate.png" alt="Book A" loading="lazy">
+                <P>Book of the month plus one own choice book</P>
+                <P>Acsess to two review forum and discution group</P>
+                <P>Bookmark and book bag</P>
+                <P>Refreshments x2 - box of coffe or tea</P>
+                <P> hot choclate or tea</P>
+                <button>Subscribe</button>
+            </div>
+
+            <div class="book-card">
+                <h1>Advanced</h1>
+                <img src="photo\Advanced.png" alt="Book A" loading="lazy">
+                <P>Book of the month plus three own book</P>
+                <P>open Acsess to all discution group</P>
+                <P>choice of three items of merchandise</P>
+                <P>Refreshments x3 - box of coffe or tea </P>
+                <P>hot choclate or tea</P>
+                <button>Subscribe</button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+
+        <p>&copy; 2025 Read It. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a> |
+            <a href="#">Terms of Service</a>
+        </div>
+
+    </footer>
+
+
+
+    <script>
+
+        const menuIcon = document.getElementById('menu-icon');
+        const nav = document.getElementById('nav');
+    
+        menuIcon.addEventListener('click', () => {
+          nav.classList.toggle('active');
+        });
+
+      </script>
+      
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXX');
+    </script>
+
+</body>

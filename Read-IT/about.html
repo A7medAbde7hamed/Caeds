@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> About Us </title>
+  <link rel="stylesheet" href="about.css">
+  <link rel="stylesheet" href="main.css">
+  <!-- Fontawesome CDN Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <header>
+    <div class="logo">Readit</div>
+    <div class="menu-icon" id="menu-icon">☰</div>
+    <nav class="nav" id="nav">
+        <a href="index.html">Home</a>
+        <a href="Product.html">Product</a>
+        <a href="Services.html">Services</a>
+        <a href="packages.html">Packages</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About Us</a>
+    </nav>
+</header>
+
+
+  <div class="container">
+    <div class="content">
+      <div class="right-side">
+        <div class="topic-text">About</div>
+        <p class="top-text">We are an innovative online book club dedicated to bringing book lovers</p>
+        <p class="top-text">together through our monthly subscription service</p>
+        <p class="top-text">Our platform offers a wide selection of books across genres</p>
+        <p class="top-text">along with engaging community features like review forums and live discussion groups</p>
+        <p class="top-text">We provide personalized packages to suit every reader's needs, from basic subscriptions to
+          premium offerings</p>
+        <p class="top-text">At Read It, we're committed to creating a vibrant community of book</p>
+        <p class="top-text">enthusiasts and providing them with unique reading experiences and valuable resources</p>
+      </div>
+    </div>
+  </div>
+
+
+  <script>
+    const menuIcon = document.getElementById('menu-icon');
+    const nav = document.getElementById('nav');
+
+    menuIcon.addEventListener('click', () => {
+      nav.classList.toggle('active');
+    });
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXX');
+  </script>
+</body>

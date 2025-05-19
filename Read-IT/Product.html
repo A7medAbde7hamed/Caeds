@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Product</title>
+    <link rel="stylesheet" href="Product.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">Readit</div>
+        <div class="menu-icon" id="menu-icon">☰</div>
+        <nav class="nav" id="nav">
+            <a href="index.html">Home</a>
+            <a href="Product.html">Product</a>
+            <a href="Services.html">Services</a>
+            <a href="packages.html">Packages</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About Us</a>
+        </nav>
+    </header>
+
+    <!-- Book List Section -->
+    <section class="book-section">
+        
+        <h2>All Books</h2>
+
+        <!-- Book Cards -->
+        <div class="card-container">
+
+            <div class="book-card">
+                <img src="photo\Fearless.jpg" alt="Book A" loading = lazy>
+                <h3>Interesting Facts For</h3>
+                <p> Jordan Moore</p>
+                <p>$10.59</p>
+                <button>buy</button>
+            </div>
+
+            <div class="book-card">
+                <img src="photo\try not to laugh.jpg" alt="Book B" loading = lazy>
+                <h3>Try Not to Laugh Challenge</h3>
+                <p>Howling Moon Press</p>
+                <p>$7.99</p>
+                <button>buy</button>
+            </div>
+
+            <div class="book-card">
+                <img src="photo\the violet and the tom.jpg" alt="Book 1" loading = lazy>
+                <h3>the violet and the tom</h3>
+                <p>Eve Ocotillo</p>
+                <p>$19.99</p>
+                <button>buy</button>
+            </div>
+
+            <div class="book-card">
+                <img src="photo\The Student Prince.jpg" alt="Book 2" loading = lazy >
+                <h3>The Student Prince</h3>
+                <p>FayJay</p>
+                <p>$20.99</p>
+                <button>buy</button>
+            </div>
+
+            <div class="book-card">
+                <img src="photo\Close Protection.jpg" alt="Book 3" loading = lazy>
+                <h3>Close Protection</h3>
+                <p>Cordelia Kingsbridge</p>
+                <p>$21.99</p>
+                <button>buy</button>
+            </div>
+
+            <div class="book-card">
+                <img src="photo\Control.jpg" alt="Book 3" loading = lazy>
+                <h3>Control</h3>
+                <p>Cordelia Kingsbridge</p>
+                <p>$22.99</p>
+                <button>buy</button>
+            </div>
+
+            <div class="book-card">
+                <img src="photo\You Get Full Credit For Being Alive.jpg" alt="Book 3" loading = lazy>
+                <h3>You Get Full Credit For Being</h3>
+                <p>Cari Z.</p>
+                <p>$23.99</p>
+                <button>buy</button>
+            </div>
+
+            <div class="book-card">
+                <img src="photo\Fearless.jpg" alt="Book 3" loading = lazy>
+                <h4>Fearless (The Powerless Trilogy)</h4>
+                <p>Lauren Roberts</p>
+                <p>$17.59</p>
+                <button>buy</button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Read It. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a> |
+            <a href="#">Terms of Service</a>
+        </div>
+    </footer>
+
+    <script>
+        const menuIcon = document.getElementById('menu-icon');
+        const nav = document.getElementById('nav');
+
+        menuIcon.addEventListener('click', () => {
+            nav.classList.toggle('active');
+        });
+    </script>
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXX');
+    </script>
+
+</body>
